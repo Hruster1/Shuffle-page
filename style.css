@@ -49,7 +49,7 @@ section{
 	bottom: 280px;
 	margin-left: 50px;
 	font-size: 27px;
-    color: #3F3F3F;
+    	color: #3F3F3F;
 }
 #con{
 	position: relative;
@@ -97,9 +97,9 @@ section{
 	position: relative;
 	bottom: 120px;
 	font-size: 30px;
-    margin: 0 20px;
-    color: #3F3F3F;
-    margin-left: 25%;
+    	margin: 0 20px;
+    	color: #3F3F3F;
+    	margin-left: 25%;
 }
 #soctxt{
 	text-align: center;
@@ -114,23 +114,23 @@ section{
 	margin-left: 0%;
 }
 .sot {
-    display: inline-block;
-    overflow: hidden;
+    	display: inline-block;
+    	overflow: hidden;
    	position: relative;
-    left: 80px;
+    	left: 80px;
 }
 .sot img {
-    margin-left: 10px;
-    border-radius: 100px;
-    padding: 3px;
+    	margin-left: 10px;
+    	border-radius: 100px;
+    	padding: 3px;
 }
 .sot img:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 #youtube{
-	position: relative;
-    left: 200px;
+    	position: relative;
+    	left: 150px;
 }
 #soc a{
 	text-decoration: none;
