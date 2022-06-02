@@ -1,0 +1,137 @@
+body{
+	background-image: url(sitefiles/back01.jpg);
+	background-size: cover;
+	font-family: Arial;
+}
+.form{
+	background:  #EFEEEE;
+	border-radius: 30px;
+	width: 600px;
+	height: 750px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 240px;
+}
+section{
+	display: flex;
+	justify-content: space-around;
+}
+#project{
+
+}
+.logo{
+	position: relative;
+	right: 0px;
+	bottom: 80px;
+	width: 600px;
+	
+}
+#mypage{
+	position: relative;
+	bottom: 250px;
+	text-align: center;
+	font-size: 40px;
+}
+.line{
+	width: 90%;
+}
+.about-txt{
+	position: relative;
+	bottom: 260px;
+	font-size: 40px;
+	color: #121212;
+	text-align: center;
+}
+#about-txt2{
+	position: relative;
+	border-left: 2px solid #3F3F3F;
+	padding-left: 7px;
+	bottom: 280px;
+	margin-left: 50px;
+	font-size: 27px;
+    color: #3F3F3F;
+}
+#con{
+	position: relative;
+	bottom: 300px;
+}
+.icon{
+	width: 50px;
+}
+.icon:hover{
+	transform: scale(1.1);
+}
+#vk1{
+	position: relative;
+	bottom: 320px;
+	left: 250px;
+	width: 80px; 
+}
+.aboutback{
+	background-color: lightgray;
+	width: 480px;
+	height: 320px;
+	padding-top: 1px;
+
+}
+
+#project2{
+	position: relative;
+	bottom: 50px;
+	text-align: center;
+	width: 600px;
+}
+#line1{
+	position: relative;
+	bottom: 250px;
+}
+#line2{
+	position: relative;
+	bottom: 146px;
+}
+#line3{
+	position: relative;
+	bottom: 27px;
+}
+#none{
+	position: relative;
+	bottom: 120px;
+	font-size: 30px;
+    margin: 0 20px;
+    color: #3F3F3F;
+    margin-left: 25%;
+}
+#soctxt{
+	text-align: center;
+	width: 600px;
+	margin: -60px 0;
+}
+#yt{
+	position: relative;
+	bottom: 15px;
+	font-size: 32px;
+	text-align: center;	
+	margin-left: 0%;
+}
+.sot {
+    display: inline-block;
+    overflow: hidden;
+   	position: relative;
+    left: 80px;
+}
+.sot img {
+    margin-left: 10px;
+    border-radius: 100px;
+    padding: 3px;
+}
+.sot img:hover {
+    transform: scale(1.1);
+}
+
+#youtube{
+	position: relative;
+    left: 200px;
+}
+#soc a{
+	text-decoration: none;
+}
