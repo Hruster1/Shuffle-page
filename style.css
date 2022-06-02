@@ -26,6 +26,10 @@ section{
 	width: 600px;
 	
 }
+#youtube{
+    	position: relative;
+    	left: -50px;
+}
 #mypage{
 	position: relative;
 	bottom: 250px;
