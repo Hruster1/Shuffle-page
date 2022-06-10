@@ -262,4 +262,12 @@ section{
 		left: -12px;
 		top: 10px;
 	}
+	ul{
+		position: relative;
+		bottom: 130px;
+		margin-left: 60px;
+	}
+	li{
+		font-size: 22px;
+	}
 }
