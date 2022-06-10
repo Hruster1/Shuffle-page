@@ -10,7 +10,7 @@ body{
 	height: 750px;
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-top: 240px;
+	margin-top: 200px;
 }
 section{
 	display: flex;
@@ -73,10 +73,7 @@ section{
 }
 .aboutback{
 	background-color: lightgray;
-	width: 480px;
-	height: 320px;
 	padding-top: 1px;
-
 }
 
 #project2{
@@ -134,4 +131,31 @@ section{
 
 #soc a{
 	text-decoration: none;
+}
+@media (min-width: 500px) {
+	section {
+		margin-top: 100px;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.form {
+		width: 23.5%;
+	}
+	.aboutback{
+		width: 80%;
+		height: 320px;
+	}
+}
+
+@media (max-width: 500px) {
+	section {
+		/*flex-direction: column;*/
+		padding-right: 20px;
+	}
+
+	.form {
+		width: 90%;
+		height: 400px;
+	}
 }
